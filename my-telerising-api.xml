@@ -10,7 +10,7 @@
   <Support/>
   <Project/>
   <Overview>API web application providing TV streams</Overview>
-  <Category/>
+  <Category>MediaServer:Video MediaServer:Other</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/platzregen/project_images/raw/main/tv.png</Icon>
