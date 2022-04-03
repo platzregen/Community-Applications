@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>telerising-api</Name>
+  <Repository>platzregen/telerising-api:0.7.1</Repository>
+  <Registry>https://hub.docker.com/r/platzregen/telerising-api</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>API web application providing TV streams</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/platzregen/project_images/raw/main/tv.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1649021885</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>API web application providing TV streams</Description>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>USER_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>GROUP_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>SSL_MODE</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="USER_ID" Target="USER_ID" Default="" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="SSL_MODE" Target="SSL_MODE" Default="" Mode="" Description="Container Variable: SSL_MODE" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+</Container>
